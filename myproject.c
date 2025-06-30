@@ -15,10 +15,14 @@ int main(){
     // printf("Random Number: %d\n", randomNumber);
 
     while (endGuess == 0){
-        // output of guess number
+
+        // To display output of guess number
         printf("Guess the Number (1 to 50): ");
         scanf("%d", &guess); // &guess passes the address of 'guess'
+
+        // To display the number of user guessed attempt
         attempts = attempts + 1;
+
         if (randomNumber > guess){
             printf("Too low! Try again! \n");
         }else if (randomNumber < guess){
@@ -34,11 +38,7 @@ int main(){
     }
 
     
-
-
     return 0;
-
-
 
 }
 
