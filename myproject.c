@@ -9,12 +9,13 @@ int main(){
 
     int endGuess, guess, attempts = 0; 
 
+    //generating a random number
     int randomNumber = (rand() % 50) + 1;
 
     // printf("Random Number: %d\n", randomNumber);
 
     while (endGuess == 0){
-        // int guess = get_int("Guess the Number (1 to 50)");
+        // output of guess number
         printf("Guess the Number (1 to 50): ");
         scanf("%d", &guess); // &guess passes the address of 'guess'
         attempts = attempts + 1;
@@ -29,15 +30,11 @@ int main(){
                 printf("Correct! You guessed it in %d attempt.\n", attempts);
             }
             endGuess = 1;
-            // randomNumber = (rand() % 50) + 1;
-            // attempts = 0;
-            // printf("Random Number: %d\n", randomNumber);
         }
     }
 
     
 
-    // printf("hello world \n");
 
     return 0;
 
