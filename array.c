@@ -1,20 +1,24 @@
 #include <stdio.h> 
 #include <stdlib.h> 
-int main(int count, char** argv[]) 
-{ 
-    if (count < 2)
-    { 
-        printf("Usage: %s number1 number2 number3 ....\n", (char*)argv[0]); 
-        return 1; 
-    } 
-    int sum; 
-    for (int i = 1; i < count; i++) 
-    { 
-        sum += atoi((char*)argv[i]); 
-    } 
-    float average = (float)sum / (float)(count-1); 
-    printf("Sum = %i\nAverage = %.3f\n",sum, average); 
-    return 0; 
+int main(int argc, char *argv[]) {
+    if (argc < 2) {
+        printf("Usage: %s <num1> <num2> \n", argv[0]);
+        return 1;
+    }
+
+    int sum = 0;
+
+    // Loop starts from 1 because argv[0] is the program name
+    for (int i = 1; i < argc; i++) {
+        sum += atoi(argv[i]);  // Convert string to int
+    }
+
+    float average = (float)sum / (argc - 1);
+
+    printf("Sum: %d\n", sum);
+    printf("Average: %.2f\n", average);
+
+    return 0;
 }
 
 
