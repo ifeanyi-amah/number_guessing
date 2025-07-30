@@ -44,3 +44,60 @@ int main() {
 }
 
 
+
+// int search(int* nums, int numsSize, int target) {
+
+
+//       int left = 0;
+//       int right = numsSize - 1;
+
+//     while (left <= right) {
+//         int mid = left + (right - left) / 2;  // avoids overflow
+
+//         if (nums[mid] == target)
+//             return mid;
+//         else if (nums[mid] < target)
+//             left = mid + 1;
+//         else
+//             right = mid - 1;
+//     }
+
+//     return -1;  // not found
+// }
+
+
+// int arr[] = {5, 3, 8, 2};
+// int min = arr[0];
+// for (int i = 1; i < 4; i++) {
+//     if (arr[i] < min) {
+//         min = arr[i];
+//     }
+// }
+// printf("%d", min); 
+
+
+#include <stdio.h>
+
+int main() {
+    char word[] = "educare";  // string stored as an array
+    int i = 0;
+
+    while (word[i] != '\0') {  // loop until end of string
+        printf("%c\n", word[i]);
+        i++;
+    }
+
+    return 0;
+}
+
+// 200 / 16 = 12 remainder 8
+// 12 / 16 = 0 remainder 12
+
+// Decimal: 200
+// Hexadecimal: 88 = OxC8
+
+// 0x256   = (2 × 16^2) + (5 × 16^1) + (6 × 16^0)
+//         = (2 × 256) + (5 × 16) + (6 × 1)
+//         = 512 + 80 + 6
+// Decimal = 598
+
