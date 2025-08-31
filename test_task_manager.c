@@ -10,6 +10,13 @@ typedef struct Task {
 Task* taskQueue = NULL; // FIFO queue for task list
 Task* undoStack = NULL; // LIFO stack for undoing last add
 
+//Function Declaration
+void enqueue(char* taskName);
+void dequeue();
+void pushUndo(char* taskName);
+void undoLast();
+void showTasks();
+
 // Add a task to the end of the queue
 void enqueue(char* taskName) {
     Task* newTask = (Task*)malloc(sizeof(Task));
@@ -138,3 +145,34 @@ int main() {
 
     return 0;
 }
+
+
+
+// void updateTreatment() {
+//     char id[MAX_TREATMENT_ID];
+
+//     // Clear input buffer before reading
+//     int ch;
+//     while ((ch = getchar()) != '\n' && ch != EOF);
+
+//     printf("Enter Treatment ID to update: ");
+//     fgets(id, MAX_TREATMENT_ID, stdin);
+//     id[strcspn(id, "\n")] = '\0';
+
+//     for (int i = 0; i < treatmentCount; i++) {
+//         if (strcmp(treatments[i].id, id) == 0) {
+//             printf("Enter new Patient ID: ");
+//             fgets(treatments[i].patientId, MAX_PATIENT_ID, stdin);
+//             treatments[i].patientId[strcspn(treatments[i].patientId, "\n")] = '\0';
+
+//             printf("Enter new Description:");
+//             fgets(treatments[i].description, MAX_TREATMENT_DESC, stdin);
+//             treatments[i].description[strcspn(treatments[i].description, "\n")] = '\0';
+
+//             saveTreatmentsToCSV();
+//             printf("Treatment updated.\n");
+//             return;
+//         }
+//     }
+//     printf("Treatment with ID %s not found.\n", id);
+// }
