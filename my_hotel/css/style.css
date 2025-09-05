@@ -1,0 +1,268 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+body {
+  line-height: 1.5;
+  color: #333;
+}
+.bord-contact{
+    border: 1px solid #084482;
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    background: #084482;
+}
+.pix1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.hotel_styles h6{
+    color: white;
+    font-weight: bold;
+    font-size: 22px !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Header and contact bar */
+.site-header {
+  background: #00aeff;
+}
+.contact-bar {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 0.5em 2em;
+  font-size: 0.9em;
+}
+.contact-numbers{
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+.contact-numbers a {
+  margin: 0 0.5em;
+}
+.currency-select select {
+  padding: 0.2em;
+}
+.account-links a {
+  margin: 0 0.3em;
+}
+
+/* Hero & search */
+.hero {
+  text-align: center;
+  padding: 2em 1em;
+  background: #fff;
+}
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+.hero p {
+  margin-bottom: 1em;
+  color: #666;
+}
+.search-form input {
+  padding: 0.6em 0.8em;
+  width: 60%;
+  max-width: 400px;
+  margin-right: 0.5em;
+}
+.search-form button {
+  padding: 0.6em 1em;
+}
+.popular-destinations ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+.popular-destinations li {
+  margin: 0.5em 1em;
+}
+
+/* Deals section */
+.deals {
+  padding: 2em 1em;
+  background: #f0f0f0;
+}
+.deals h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+.deals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 1em;
+}
+.deal-card {
+  background: white;
+  padding: 1em;
+  border-radius: 4px;
+  text-align: center;
+}
+.deal-card .discount {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+/* Cities list */
+.city-list {
+  padding: 2em 1em;
+}
+.city-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.city-grid li {
+  margin: 0.5em 1em;
+}
+.full-city-list {
+  columns: 3;
+  column-gap: 2em;
+  margin-top: 1em;
+}
+
+/* Footer */
+.site-footer {
+  background: #333;
+  color: #eee;
+  padding: 2em 1em;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5em;
+}
+.footer-links h4 {
+  margin-bottom: 0.5em;
+}
+.footer-links li {
+  margin-bottom: 0.3em;
+}
+.newsletter p {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.newsletter form {
+  text-align: center;
+}
+.newsletter input {
+  padding: 0.5em;
+  width: 250px;
+  margin-right: 0.5em;
+}
+.newsletter button {
+  padding: 0.5em 1em;
+}
+.site-footer a {
+  color: #fff;
+}
+.site-footer a:hover {
+  text-decoration: underline;
+}
+.site-footer .copyright {
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+
+.img{
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+
+
+
+/* drop down */
+
+.text_dropdown h6{
+  font-size: 0.9em;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.navbar {
+      display: flex;
+      align-items: center;
+      /* justify-content: space-between;
+      background-color: #00aaff;
+      padding: 10px 20px;
+      color: white; */
+    }
+
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+      position: relative;
+    }
+
+    .dropdown-button {
+      background-color: #00aaff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 5px 10px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: white;
+      color: black;
+      min-width: 100px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 5px;
+    }
+
+    .dropdown-content a {
+      padding: 10px;
+      display: block;
+      text-decoration: none;
+      color: black;
+      width: 200px;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .icon {
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .flag {
+      width: 24px;
+      vertical-align: middle;
+    }
