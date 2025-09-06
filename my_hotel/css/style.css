@@ -36,6 +36,15 @@ ul {
     font-size: 22px !important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.home_page{ 
+   background-image: url("../images/v7-homepage1.jpg");
+   background-repeat: no-repeat !important;
+   background-size: cover !important;
+   background-position: center !important;
+   height: 500px;
+   background-color: rgba(0, 0, 0, 15px); 
+   opacity: 0.7;
+}
 
 /* Header and contact bar */
 .site-header {
@@ -65,25 +74,45 @@ ul {
 /* Hero & search */
 .hero {
   text-align: center;
-  padding: 2em 1em;
+  /* padding: 2em 1em; */
   background: #fff;
 }
 .hero h1 {
   font-size: 2.5em;
   margin-bottom: 0.5em;
+  text-align: center;
+  color: white;
+  line-height: 1.0;
 }
 .hero p {
   margin-bottom: 1em;
-  color: #666;
+  color: white;
+  font-size: 20px;
+  line-height: 1.0;
+}
+.background_search{
+  border: 1px solid lightgrey !important;
+  padding: 30px;
+  background-color: white;
+  margin: -50px auto 0;
+  width: 1200px;
+  border: 1px solid #d9d9d9;
+  box-shadow: 0 4px 15px #0003;
+  position: relative;
 }
 .search-form input {
   padding: 0.6em 0.8em;
   width: 60%;
   max-width: 400px;
   margin-right: 0.5em;
+  border-radius: 5px;
 }
 .search-form button {
   padding: 0.6em 1em;
+  background: #00aeff;
+  color: white;
+  border-radius: 5px;
+  border: none;
 }
 .popular-destinations ul {
   display: flex;
@@ -93,6 +122,57 @@ ul {
 }
 .popular-destinations li {
   margin: 0.5em 1em;
+}
+
+.sub-header h6{
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  line-height: 1.5;
+}
+.sub-header p{
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  line-height: 1.5;
+}
+.straight-line{
+  border-bottom: 3px solid #00aeff !important;
+  width: 100px;
+  margin: 20px auto 0;
+}
+.bord_circle{
+  border: 2px solid #00aeff !important;
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+  align-content: center;
+  margin: 0 10px;
+  padding: 0 20px
+}
+.bord_circle h6{
+  font-size: 16px;
+  color: #00aeff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
+}
+.bord_circle p{
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  line-height: 1.5;
+}
+.bord_circle:hover{
+  background-color: #00aeff;
+}
+.bord_circle:hover h6{
+  color: white;
+  cursor: pointer;
+}
+.bord_circle:hover p{
+  color: white;
+  cursor: pointer;
 }
 
 /* Deals section */
@@ -185,6 +265,38 @@ ul {
 .img{
     border-right: 1px solid white;
     padding-right: 20px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 400px;
+  margin: 0 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+.container h4{
+  font-size: 18px;
+  color: #00aeff;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 0 10px;
+}
+.container p{
+  font-size: 16px;
+  color: black;
+  font-weight: normal;
+  line-height: 1.5;
+  padding: 0 10px;
 }
 
 
