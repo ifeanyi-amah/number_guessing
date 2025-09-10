@@ -1,703 +1,949 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Hotels.ng – Book the best Hotels in Nigeria</title>
-  <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="contact-bar">
-      <div class="hotel_styles" style="flex: 1;">
-         <h6>hotels.ng</h6>   
-      </div>  
-      <div class="img">
-         <img src="../images/whatsapp-icon.png" width="50" alt="">
-      </div>
-      <div class="contact-numbers" style="margin-left: 20px;">
-         <div class="bord-contact" style="display: flex;">
-            <div class="pix1" style="flex: 0.8;">
-                <img src="../images/navbar-contact-min.jpg" alt="">
-            </div>
-            <div class="" style="text-align: center !important;">
-                <div class="" style="">
-                    <h6 style="font-size: 12px !important; text-align: center !important; color: #028cb6 !important;">You can call us to book your hotel</h6>
+    <head>
+      <meta charset="UTF-8">
+      <title>Hotels.ng – Book the best Hotels in Nigeria</title>
+      <link rel="stylesheet" href="../css/all.css">
+      <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+      <header class="site-header">
+        <div class="contact-bar">
+          <div class="hotel_styles" style="flex: 1;">
+            <h6>hotels.ng</h6>   
+          </div>  
+          <div class="img">
+            <img src="../images/whatsapp-icon.png" width="50" alt="">
+          </div>
+          <div class="contact-numbers" style="margin-left: 20px;">
+            <div class="bord-contact" style="display: flex;">
+                <div class="pix1" style="flex: 0.8;">
+                    <img src="../images/navbar-contact-min.jpg" alt="">
                 </div>
-                <div class="navbar" style="">
-                    <div class="dropdown">
-                        <button class="dropbtn" style="text-align: center !important; background: none !important; color: white !important; border: none !important;">+234 814 880 8800 
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
-                        </div>
-                    </div> 
-                    <!-- <h6 style="color: white !important; font-size: 14px !important; text-align: center !important;">+234 814 880 8800</h6> -->
+                <div class="" style="text-align: center !important;">
+                    <div class="" style="">
+                        <h6 style="font-size: 12px !important; text-align: center !important; color: #028cb6 !important;">You can call us to book your hotel</h6>
+                    </div>
+                    <div class="navbar" style="">
+                        <div class="dropdown">
+                            <button class="dropbtn" style="text-align: center !important; background: none !important; color: white !important; border: none !important;">+234 814 880 8800 
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div> 
+                        <!-- <h6 style="color: white !important; font-size: 14px !important; text-align: center !important;">+234 814 880 8800</h6> -->
+                    </div>
                 </div>
             </div>
-         </div>
-      </div>
-
-     <!-- Country Dropdown -->
-      <div class="dropdown" style="border-right: 1px solid white !important; padding-right: 20px;">
-        <button class="dropdown-button">
-          <img src="../images/nigeria-flag.svg" alt="Nigeria" class="flag"><span style="padding-right: 20px;">&#8358;</span> ▼
-        </button>
-        <div class="dropdown-content">
-          <div class="text_dropdown">
-             <h6>Choose your preferred currency for the hotel rates:</h6> 
           </div>
-          <a href="#"><img src="" class="flag"> ₦ Nigerian Naira</a>
-          <a href="#"><img src="" class="flag"> $ U.S. Dollar</a>
-          <a href="#"><img src="" class="flag"> € Euro</a>
-          <a href="#"><img src="" class="flag"> £ British Pound</a>
-          <a href="#"><img src="" class="flag"> KSh Kenyan Shilling</a>
-          <a href="#"><img src="" class="flag"> ₹ Indian Rupee</a>
-          <a href="#"><img src="" class="flag"> R South African Rand</a>
+
+        <!-- Country Dropdown -->
+          <div class="dropdown" style="border-right: 1px solid white !important; padding-right: 20px;">
+            <button class="dropdown-button">
+              <img src="../images/nigeria-flag.svg" alt="Nigeria" class="flag"><span style="padding-right: 20px;">&#8358;</span> ▼
+            </button>
+            <div class="dropdown-content">
+              <div class="text_dropdown">
+                <h6>Choose your preferred currency for the hotel rates:</h6> 
+              </div>
+              <a href="#"><img src="" class="flag"> ₦ Nigerian Naira</a>
+              <a href="#"><img src="" class="flag"> $ U.S. Dollar</a>
+              <a href="#"><img src="" class="flag"> € Euro</a>
+              <a href="#"><img src="" class="flag"> £ British Pound</a>
+              <a href="#"><img src="" class="flag"> KSh Kenyan Shilling</a>
+              <a href="#"><img src="" class="flag"> ₹ Indian Rupee</a>
+              <a href="#"><img src="" class="flag"> R South African Rand</a>
+            </div>
+          </div>
+
+          <!-- Account Dropdown -->
+          <div class="dropdown" style="">
+            <!-- <button class="dropdown-button">👤 Account ▼</button> -->
+            <button class="dropdown-button"><span><img src="../images/profile-circle-icon.png" width="20" alt=""></span> Account ▼</button>
+            <div class="dropdown-content" style="padding-top: 20px;">
+              <h6>Sign in to access exclusive member deals</h6>
+              <button type="submit" style="margin-top: 20px;">Sign In</button>
+              <h6>New here? <a href="">Sign up</a></h6>
+            </div>
+          </div>
+        
         </div>
-      </div>
 
-      <!-- Account Dropdown -->
-      <div class="dropdown" style="">
-        <button class="dropdown-button">👤 Account ▼</button>
-        <div class="dropdown-content">
-          <a href="#">Login</a>
-          <a href="#">Register</a>
-          <a href="#">Bookings</a>
+        <div class="hero">
+          <div class="home_page">
+              <div class="" style="padding-top: 150px;">
+                <h1>Find and book hotels in Nigeria.</h1>
+                <p>Search through 13,541 hotels in Nigeria</p>
+              </div>
+          </div>
+
         </div>
-      </div>
-     
-    </div>
+      </header>
 
-    <div class="hero">
-      <div class="home_page">
-          <div class="" style="padding-top: 150px;">
-            <h1>Find and book hotels in Nigeria.</h1>
-            <p>Search through 13,541 hotels in Nigeria</p>
+      <div class="gen_search" style="">
+        <div class="background_search">
+            <form class="search-form" action="#" method="get">
+              <input type="text" name="destination" placeholder="Search City or Hotel" required>
+              <input type="date" id="date" name="birthday" value="Fri, 05 Sep - Sat, 06 Sep">
+              <button type="submit">Find Hotels</button>
+            </form>
           </div>
       </div>
+      
 
-    </div>
-  </header>
+      <section>
+        <div class="" style="margin-top: 50px;">
+          <div class="sub-header">
+            <h6>Suggested Destinations in Nigeria</h6> 
+            <p>Below are the most popular travel destinations in Nigeria</p> 
+          </div>
+          <div class="straight-line"></div>
+        </div>
 
-  <div class="gen_search" style="">
-    <div class="background_search">
-        <form class="search-form" action="#" method="get">
-          <input type="text" name="destination" placeholder="Search City or Hotel" required>
-          <input type="date" id="date" name="birthday" value="Fri, 05 Sep - Sat, 06 Sep">
-          <button type="submit">Find Hotels</button>
-        </form>
-      </div>
-  </div>
-  
+        <div class="popular-destinations" style="margin-top: 20px;">
+          <div class="" style="display: flex; justify-content: center;">
+              <div class="bord_circle" style="">
+                  <h6>Hotels in Lagos</h6>
+                  <p>3,581 hotels</p>
+              </div>
+              <div class="bord_circle" style="">
+                  <h6>Hotels in Abuja</h6>
+                  <p>1,248 hotels</p>
+              </div>
+              <div class="bord_circle" style="">
+                  <h6>Hotels in Port Harcourt</h6>
+                  <p>441 hotels</p>
+              </div>
+              <div class="bord_circle" style="">
+                  <h6>Hotels in Kaduna</h6>
+                  <p>327 hotels</p>
+              </div>
+              <div class="bord_circle" style="">
+                  <h6 style="padding: 0 10px !important;">Hotels in Uyo</h6>
+                  <p>221 hotels</p>
+              </div>
+              <div class="bord_circle" style="">
+                  <h6>Hotels in Ibadan</h6>
+                  <p>505 hotels</p>
+              </div>
+          </div> 
+        </div>
 
-  <section>
-    <div class="" style="margin-top: 50px;">
-      <div class="sub-header">
-         <h6>Suggested Destinations in Nigeria</h6> 
-         <p>Below are the most popular travel destinations in Nigeria</p> 
-      </div>
-      <div class="straight-line"></div>
-    </div>
+        <div class="" style="margin-top: 50px;">
+          <div class="sub-header">
+            <h6>Today's Top Hotel Deals</h6> 
+            <p>A selection of the best hotel deals, only available today</p> 
+          </div>
+          <div class="straight-line"></div>
+        </div>
+      </section>
 
-    <div class="popular-destinations" style="margin-top: 20px;">
-       <div class="" style="display: flex; justify-content: center;">
-          <div class="bord_circle" style="">
-              <h6>Hotels in Lagos</h6>
-              <p>3,581 hotels</p>
-          </div>
-          <div class="bord_circle" style="">
-              <h6>Hotels in Abuja</h6>
-              <p>1,248 hotels</p>
-          </div>
-          <div class="bord_circle" style="">
-              <h6>Hotels in Port Harcourt</h6>
-              <p>441 hotels</p>
-          </div>
-          <div class="bord_circle" style="">
-              <h6>Hotels in Kaduna</h6>
-              <p>327 hotels</p>
-          </div>
-          <div class="bord_circle" style="">
-              <h6 style="padding: 0 10px !important;">Hotels in Uyo</h6>
-              <p>221 hotels</p>
-          </div>
-          <div class="bord_circle" style="">
-              <h6>Hotels in Ibadan</h6>
-              <p>505 hotels</p>
-          </div>
-       </div> 
-    </div>
-
-    <div class="" style="margin-top: 50px;">
-      <div class="sub-header">
-         <h6>Today's Top Hotel Deals</h6> 
-         <p>A selection of the best hotel deals, only available today</p> 
-      </div>
-      <div class="straight-line"></div>
-    </div>
-  </section>
-
-  <section>
-    <div class="" style="margin-top: 20px;">
-      <div class="" style="display: flex; justify-content: center;">
-        <div class="card">
-          <div class="gen-hov">
-            <div class="image_hotels hotels_number1">
-              <div class="discount">
-                  <h6>Up to 20% off</h6>
+      <section>
+        <div class="" style="margin-top: 20px;">
+          <div class="" style="display: flex; justify-content: center;">
+            <div class="card">
+              <div class="gen-hov">
+                <div class="image_hotels hotels_number1">
+                  <div class="discount">
+                      <h6>Up to 20% off</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <h4>Florence Hotel and Suit</h4>
+                <p>Benin, Edo</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="gen-hov">
+                <div class="image_hotels hotels_number2">
+                  <div class="discount">
+                      <h6>Up to 27% off</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <h4>The Corinthia Villa</h4>
+                <p>Garki 2, Abuja</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="gen-hov">
+                <div class="image_hotels hotels_number3">
+                  <div class="discount">
+                      <h6>Up to 21% off</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <h4><b>Luxol Homes & Suites</b></h4>
+                <p>Ikeja, Lagos</p>
               </div>
             </div>
           </div>
-          <div class="container">
-            <h4>Florence Hotel and Suit</h4>
-            <p>Benin, Edo</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="gen-hov">
-            <div class="image_hotels hotels_number2">
-              <div class="discount">
-                  <h6>Up to 27% off</h6>
+          <div class="" style="display: flex; margin-top: 20px; justify-content: center;">
+            <div class="card">
+              <div class="gen-hov">
+                <div class="image_hotels hotels_number4">
+                  <div class="discount">
+                      <h6>Up to 19% off</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <h4>Ibis Lagos Airport</h4>
+                <p>AAjao estate, Lagos</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="gen-hov">
+                <div class="image_hotels hotels_number5">
+                  <div class="discount">
+                      <h6>Up to 19% off</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <h4>White Stone Hotel and</h4>
+                <p>Port harcourt, Rivers</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="gen-hov">
+                <div class="image_hotels hotels_number6">
+                  <div class="discount">
+                      <h6>Up to 0% off</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <h4>Wavecrest Beach Resort</h4>
+                <p>Ibeju-lekki, Lagos</p>
               </div>
             </div>
           </div>
-          <div class="container">
-            <h4>The Corinthia Villa</h4>
-            <p>Garki 2, Abuja</p>
-          </div>
         </div>
-        <div class="card">
-          <div class="gen-hov">
-            <div class="image_hotels hotels_number3">
-              <div class="discount">
-                  <h6>Up to 21% off</h6>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <h4><b>Luxol Homes & Suites</b></h4>
-            <p>Ikeja, Lagos</p>
-          </div>
-        </div>
-      </div>
-      <div class="" style="display: flex; margin-top: 20px; justify-content: center;">
-        <div class="card">
-          <div class="gen-hov">
-            <div class="image_hotels hotels_number4">
-              <div class="discount">
-                  <h6>Up to 19% off</h6>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <h4>Ibis Lagos Airport</h4>
-            <p>AAjao estate, Lagos</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="gen-hov">
-            <div class="image_hotels hotels_number5">
-              <div class="discount">
-                  <h6>Up to 19% off</h6>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <h4>White Stone Hotel and</h4>
-            <p>Port harcourt, Rivers</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="gen-hov">
-            <div class="image_hotels hotels_number6">
-              <div class="discount">
-                  <h6>Up to 0% off</h6>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <h4>Wavecrest Beach Resort</h4>
-            <p>Ibeju-lekki, Lagos</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <main>
-    <section class="city-list">
-      <div class="" style="margin-top: 50px;">
-        <div class="sub-header">
-          <h6>Popular cities with Hotels.ng travellers</h6> 
-          <p>See the top destinations people are traveling to</p> 
-        </div>
-        <div class="straight-line"></div>
-     </div>
-     
-     <div class="hotel_picture" style="margin-top: 50px;">
-        <div class="" style="display: flex; justify-content: center;">
-            <div class="room1 space-bord" style="align-content: center;">
-                <div class="text_hotels" style="">
-                    <p>3,581</p>
-                    <h6>Lagos Hotels</h6>
-                </div>
-            </div>
-            <div class="room2 space-bord" style="align-content: center;">
-                <div class="text_hotels" style="">
-                    <p>1,248</p>
-                    <h6>Abuja Hotels</h6>
-                </div>
-            </div>
-            <div class="room3 space-bord" style="align-content: center;">
-                <div class="text_hotels" style="">
-                    <p>288</p>
-                    <h6>Calabar Hotels</h6>
-                </div>
-            </div>
-        </div>
-        <div class="" style="display: flex; margin-top: 20px; justify-content: center;">
-            <div class="room4 space-bord" style="align-content: center;">
-                <div class="text_hotels" style="">
-                    <p>441</p>
-                    <h6>Port Harcourt Hotels</h6>
-                </div>
-            </div>
-            <div class="room5 space-bord" style="align-content: center;">
-                <div class="text_hotels" style="">
-                    <p>255</p>
-                    <h6>Owerri Hotels</h6>
-                </div>
-            </div>
-            <div class="room6 space-bord" style="align-content:  center;">
-                <div class="text_hotels" style="">
-                    <p>221</p>
-                    <h6>Uyo Hotels</h6>
-                </div>
-            </div>
-        </div>
-     </div>
-
-     <div class="" style="margin-top: 50px;">
-      <div class="sub-header">
-         <h6>Which City Do You Want To Book A Hotel ?</h6> 
-         <p>13,545 hotels in 1483 cities / towns in Nigeria</p> 
-      </div>
-      <div class="straight-line"></div>
-    </div>
-
-    <section>
-
-      <div class="" style="margin-top: 20px;">
-          <table class="adjust">
-              <tbody>
-                  <tr>
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Abia</h6>
-                            <p>297 hotels in Abia with</p>
-                            <p>over 212 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Abuja</h6>
-                            <p>1,248 hotels in Abuja with over</p>
-                            <p>2,727 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Adamawa</h6>
-                            <p>70 hotels in Adamawa with</p>
-                            <p>over 58 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Akwa Ibom</h6>
-                            <p>487 hotels in Akwa Ibom</p>
-                            <p>with over 370 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Anambra</h6>
-                            <p>305 hotels in Anambra with</p>
-                            <p>over 192 hotel reviews</p>
-                        </div>
-                     </td> 
-                  </tr>
-                  <tr>
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Bauchi</h6>
-                            <p>51 hotels in Bauchi with</p>
-                            <p>over 76 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Bayelsa</h6>
-                            <p>182 hotels in Bayelsa with</p>
-                            <p>over 74 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Benue</h6>
-                            <p>284 hotels in Benue with over</p>
-                            <p>66 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Borno</h6>
-                            <p>24 hotels in Borno with</p>
-                            <p>over 28 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Cross River</h6>
-                            <p>359 hotels in Cross River with</p>
-                            <p>over 420 hotel reviews</p>
-                        </div>
-                     </td> 
-                  </tr>
-                  <tr>
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Delta</h6>
-                            <p>661 hotels in Delta with</p>
-                            <p>over 531 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Ebonyi</h6>
-                            <p>101 hotels in Ebonyi with over</p>
-                            <p>28 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Edo</h6>
-                            <p>393 hotels in Edo with over</p>
-                            <p>559 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Ekiti</h6>
-                            <p>231 hotels in Ekiti with</p>
-                            <p>over 220 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Enugu</h6>
-                            <p>362 hotels in Enugu with over</p>
-                            <p>519 hotel reviews</p>
-                        </div>
-                     </td> 
-                  </tr>
-                  <tr>
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Fct</h6>
-                            <p>1 hotels in Fct with no</p>
-                            <p>hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Gombe</h6>
-                            <p>42 hotels in Gombe with over</p>
-                            <p>35 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Imo</h6>
-                            <p>353 hotels in Imo with over</p>
-                            <p>387 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Jigawa</h6>
-                            <p>35 hotels in Jigawa with</p>
-                            <p>over 11 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Kaduna</h6>
-                            <p>327 hotels in Kaduna with</p>
-                            <p>over 302 hotel reviews</p>
-                        </div>
-                     </td> 
-                  </tr>
-                  <tr>
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Kano</h6>
-                            <p>128 hotels in Kano with</p>
-                            <p>over 150 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Katsina</h6>
-                            <p>32 hotels in Katsina with over</p>
-                            <p>30 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Kebbi</h6>
-                            <p>25 hotels in Kebbi with over 15</p>
-                            <p>hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Kogi</h6>
-                            <p>260 hotels in Kogi with</p>
-                            <p>over 65 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Kwara</h6>
-                            <p>333 hotels in Kwara with over</p>
-                            <p>319 hotel reviews</p>
-                        </div>
-                     </td> 
-                  </tr>
-                  <tr>
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Lagos</h6>
-                            <p>3,581 hotels in Lagos with</p>
-                            <p>over 12,664 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Nasarawa</h6>
-                            <p>232 hotels in Nasarawa with</p>
-                            <p>over 80 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Niger</h6>
-                            <p>110 hotels in Niger with over</p>
-                            <p>74 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_addresshotel_address" style="">
-                            <h6>Hotels in Ogun</h6>
-                            <p>760 hotels in Ogun with</p>
-                            <p>over 570 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Ondo</h6>
-                            <p>255 hotels in Ondo with over</p>
-                            <p>183 hotel reviews</p>
-                        </div>
-                     </td> 
-                  </tr>
-                  <tr>
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Osun</h6>
-                            <p>330 hotels in Osun with</p>
-                            <p>over 221 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Oyo</h6>
-                            <p>666 hotels in Oyo with over</p>
-                            <p>819 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Plateau</h6>
-                            <p>288 hotels in Plateau with over</p>
-                            <p>169 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Rivers</h6>
-                            <p>558 hotels in Rivers with</p>
-                            <p>over 743 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Sokoto</h6>
-                            <p>22 hotels in Sokoto with over</p>
-                            <p>60 hotel reviews</p>
-                        </div>
-                     </td> 
-                  </tr>
-                  <tr>
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Taraba</h6>
-                            <p>98 hotels in Taraba with</p>
-                            <p>over 7 hotel reviews</p>
-                        </div>          
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Yobe</h6>
-                            <p>11 hotels in Yobe with over 2</p>
-                            <p>hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>
-                        <div class="hotel_address" style="">
-                            <h6>Hotels in Zamfara</h6>
-                            <p>27 hotels in Zamfara with over</p>
-                            <p>12 hotel reviews</p>
-                        </div>
-                     </td> 
-                     <td>&nbsp;</td> 
-                     <td>&nbsp;</td> 
-                  </tr>
-              </tbody>
-          </table>
-      </div>
-    </section>
-
-
-    <div class="semi_background-footer" style="margin-top: 20px;">
-          <div class="" style="">
+      <main>
+        <section class="city-list">
+          <div class="" style="margin-top: 50px;">
             <div class="sub-header">
-              <h6>Special Hotel Deals and Offers</h6> 
-              <p>Enter your email address to receive secret hotels deals</p> 
+              <h6>Popular cities with Hotels.ng travellers</h6> 
+              <p>See the top destinations people are traveling to</p> 
             </div>
-            <!-- <div class="straight-line"></div> -->
+            <div class="straight-line"></div>
+        </div>
+        
+        <div class="hotel_picture" style="margin-top: 50px;">
+            <div class="" style="display: flex; justify-content: center;">
+                <div class="room1 space-bord" style="align-content: center;">
+                    <div class="text_hotels" style="">
+                        <p>3,581</p>
+                        <h6>Lagos Hotels</h6>
+                    </div>
+                </div>
+                <div class="room2 space-bord" style="align-content: center;">
+                    <div class="text_hotels" style="">
+                        <p>1,248</p>
+                        <h6>Abuja Hotels</h6>
+                    </div>
+                </div>
+                <div class="room3 space-bord" style="align-content: center;">
+                    <div class="text_hotels" style="">
+                        <p>288</p>
+                        <h6>Calabar Hotels</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="display: flex; margin-top: 20px; justify-content: center;">
+                <div class="room4 space-bord" style="align-content: center;">
+                    <div class="text_hotels" style="">
+                        <p>441</p>
+                        <h6>Port Harcourt Hotels</h6>
+                    </div>
+                </div>
+                <div class="room5 space-bord" style="align-content: center;">
+                    <div class="text_hotels" style="">
+                        <p>255</p>
+                        <h6>Owerri Hotels</h6>
+                    </div>
+                </div>
+                <div class="room6 space-bord" style="align-content:  center;">
+                    <div class="text_hotels" style="">
+                        <p>221</p>
+                        <h6>Uyo Hotels</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="" style="margin-top: 50px;">
+          <div class="sub-header">
+            <h6>Which City Do You Want To Book A Hotel ?</h6> 
+            <p>13,545 hotels in 1483 cities / towns in Nigeria</p> 
+          </div>
+          <div class="straight-line"></div>
+        </div>
+
+        <section>
+
+          <div class="" style="margin-top: 20px;">
+              <table class="adjust">
+                  <tbody>
+                      <tr>
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Abia</h6>
+                                <p>297 hotels in Abia with</p>
+                                <p>over 212 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Abuja</h6>
+                                <p>1,248 hotels in Abuja with over</p>
+                                <p>2,727 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Adamawa</h6>
+                                <p>70 hotels in Adamawa with</p>
+                                <p>over 58 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Akwa Ibom</h6>
+                                <p>487 hotels in Akwa Ibom</p>
+                                <p>with over 370 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Anambra</h6>
+                                <p>305 hotels in Anambra with</p>
+                                <p>over 192 hotel reviews</p>
+                            </div>
+                        </td> 
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Bauchi</h6>
+                                <p>51 hotels in Bauchi with</p>
+                                <p>over 76 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Bayelsa</h6>
+                                <p>182 hotels in Bayelsa with</p>
+                                <p>over 74 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Benue</h6>
+                                <p>284 hotels in Benue with over</p>
+                                <p>66 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Borno</h6>
+                                <p>24 hotels in Borno with</p>
+                                <p>over 28 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Cross River</h6>
+                                <p>359 hotels in Cross River with</p>
+                                <p>over 420 hotel reviews</p>
+                            </div>
+                        </td> 
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Delta</h6>
+                                <p>661 hotels in Delta with</p>
+                                <p>over 531 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Ebonyi</h6>
+                                <p>101 hotels in Ebonyi with over</p>
+                                <p>28 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Edo</h6>
+                                <p>393 hotels in Edo with over</p>
+                                <p>559 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Ekiti</h6>
+                                <p>231 hotels in Ekiti with</p>
+                                <p>over 220 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Enugu</h6>
+                                <p>362 hotels in Enugu with over</p>
+                                <p>519 hotel reviews</p>
+                            </div>
+                        </td> 
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Fct</h6>
+                                <p>1 hotels in Fct with no</p>
+                                <p>hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Gombe</h6>
+                                <p>42 hotels in Gombe with over</p>
+                                <p>35 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Imo</h6>
+                                <p>353 hotels in Imo with over</p>
+                                <p>387 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Jigawa</h6>
+                                <p>35 hotels in Jigawa with</p>
+                                <p>over 11 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Kaduna</h6>
+                                <p>327 hotels in Kaduna with</p>
+                                <p>over 302 hotel reviews</p>
+                            </div>
+                        </td> 
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Kano</h6>
+                                <p>128 hotels in Kano with</p>
+                                <p>over 150 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Katsina</h6>
+                                <p>32 hotels in Katsina with over</p>
+                                <p>30 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Kebbi</h6>
+                                <p>25 hotels in Kebbi with over 15</p>
+                                <p>hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Kogi</h6>
+                                <p>260 hotels in Kogi with</p>
+                                <p>over 65 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Kwara</h6>
+                                <p>333 hotels in Kwara with over</p>
+                                <p>319 hotel reviews</p>
+                            </div>
+                        </td> 
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Lagos</h6>
+                                <p>3,581 hotels in Lagos with</p>
+                                <p>over 12,664 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Nasarawa</h6>
+                                <p>232 hotels in Nasarawa with</p>
+                                <p>over 80 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Niger</h6>
+                                <p>110 hotels in Niger with over</p>
+                                <p>74 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_addresshotel_address" style="">
+                                <h6>Hotels in Ogun</h6>
+                                <p>760 hotels in Ogun with</p>
+                                <p>over 570 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Ondo</h6>
+                                <p>255 hotels in Ondo with over</p>
+                                <p>183 hotel reviews</p>
+                            </div>
+                        </td> 
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Osun</h6>
+                                <p>330 hotels in Osun with</p>
+                                <p>over 221 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Oyo</h6>
+                                <p>666 hotels in Oyo with over</p>
+                                <p>819 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Plateau</h6>
+                                <p>288 hotels in Plateau with over</p>
+                                <p>169 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Rivers</h6>
+                                <p>558 hotels in Rivers with</p>
+                                <p>over 743 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Sokoto</h6>
+                                <p>22 hotels in Sokoto with over</p>
+                                <p>60 hotel reviews</p>
+                            </div>
+                        </td> 
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Taraba</h6>
+                                <p>98 hotels in Taraba with</p>
+                                <p>over 7 hotel reviews</p>
+                            </div>          
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Yobe</h6>
+                                <p>11 hotels in Yobe with over 2</p>
+                                <p>hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>
+                            <div class="hotel_address" style="">
+                                <h6>Hotels in Zamfara</h6>
+                                <p>27 hotels in Zamfara with over</p>
+                                <p>12 hotel reviews</p>
+                            </div>
+                        </td> 
+                        <td>&nbsp;</td> 
+                        <td>&nbsp;</td> 
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+        </section>
+
+
+        <div class="semi_background-footer" style="margin-top: 20px;">
+              <div class="" style="">
+                <div class="sub-header">
+                  <h6>Special Hotel Deals and Offers</h6> 
+                  <p>Enter your email address to receive secret hotels deals</p> 
+                </div>
+                <!-- <div class="straight-line"></div> -->
+              </div>
+
+              <div class="" style="text-align: center; margin-top: 20px;">
+                <form action="#" method="post">
+                  <input class="email_text" type="email" name="email" placeholder="Enter your email address">
+                  <button class="boot" type="submit">Subscribe</button>
+                </form>
+              </div>
+        </div>
+
+        </section>
+      </main>
+
+
+      <section>
+
+          <div class="" style="margin-top: 100px;">
+            <div class="sub-header">
+              <h6>We've been featured in</h6> 
+            </div>
+            <div class="straight-line"></div>
+          </div>
+
+          <div class="" style="margin-top: 50px;">
+              <div class="" style="display: flex; justify-content: center; align-items: center; gap: 100px; flex-wrap: wrap;">
+                  <div class="" style="">
+                      <img src="../images/bbc.png" width="200" alt="">
+                  </div>
+                  <div class="" style="">
+                      <img src="../images/forbes.png" width="200" alt="">
+                  </div>
+                  <div class="" style="">
+                      <img src="../images/newsweek.png" width="200" alt="">
+                  </div>
+                  <div class="" style="">
+                      <img src="../images/webafrica.png" width="200" alt="">
+                  </div> 
+              </div>
+          </div>
+
+          <div class="" style="margin-top: 50px;">
+            <div class="sub-header">
+              <h6>Get More Bookings for Your Hotel</h6> 
+              <p>Find out why over 13,137 hotels managers trust Hotels.ng</p> 
+            </div>
           </div>
 
           <div class="" style="text-align: center; margin-top: 20px;">
             <form action="#" method="post">
-              <input class="email_text" type="email" name="email" placeholder="Enter your email address">
-              <button class="boot" type="submit">Subscribe</button>
+              <button class="boot" type="submit">Add Your Hotel</button>
             </form>
           </div>
-    </div>
 
-    </section>
-  </main>
+      </section>
 
 
-  <section>
-
-      <div class="" style="margin-top: 100px;">
-        <div class="sub-header">
-          <h6>We've been featured in</h6> 
-        </div>
-        <div class="straight-line"></div>
-      </div>
-
-      <div class="" style="margin-top: 50px;">
-          <div class="" style="display: flex; justify-content: center; align-items: center; gap: 100px;">
-              <div class="" style="">
-                  <img src="../images/bbc.png" width="200" alt="">
-              </div>
-              <div class="" style="">
-                  <img src="../images/forbes.png" width="200" alt="">
-              </div>
-              <div class="" style="">
-                  <img src="../images/newsweek.png" width="200" alt="">
-              </div>
-              <div class="" style="">
-                  <img src="../images/webafrica.png" width="200" alt="">
-              </div> 
-          </div>
-      </div>
-
-      <div class="" style="margin-top: 50px;">
-        <div class="sub-header">
-          <h6>Get More Bookings for Your Hotel</h6> 
-          <p>Find out why over 13,137 hotels managers trust Hotels.ng</p> 
-        </div>
-      </div>
-
-      <div class="" style="text-align: center; margin-top: 20px;">
-        <form action="#" method="post">
-          <button class="boot" type="submit">Add Your Hotel</button>
-        </form>
-      </div>
-
-  </section>
-
-
-  <section>
-    <div class="footer-background" style="margin-top: 20px;">
-        <div class="" style="display: flex; justify-content: center; gap: 50px;">
-            <div class="" style="">
-                <img src="../images/app-image.png" width="500" height="500" alt="">
-            </div>
-            <div class="footer_app" style="">
-                <div class="">
-                    <h1>Get the</h1>
-                    <h1>Hotels.ng app</h1>
-                    <h5>Download the hotels.ng</h5>
-                    <h5>app and book a hotel</h5>
-                    <h5>instantly</h5>
-                    <p>Book your hotel instantly with our Android and</p>
-                    <p>iOS Apps.</p>
+      <section>
+        <div class="footer-background" style="margin-top: 20px;">
+            <div class="" style="display: flex; justify-content: center; gap: 50px; flex-wrap: wrap;">
+                <div class="" style="">
+                    <img src="../images/app-image.png" width="500" height="500" alt="">
                 </div>
-                <div class="">
-                    <div class="" style="display: flex; gap: 20px; align-items: center;">
-                        <div class="" style="">
-                            <img src="../images/google-play-min.png" width="300" alt="">
-                        </div>
-                        <div class="" style="">
-                            <img src="../images/apple.png" width="300" alt="">
+                <div class="footer_app" style="">
+                    <div class="">
+                        <h1>Get the</h1>
+                        <h1>Hotels.ng app</h1>
+                        <h5>Download the hotels.ng</h5>
+                        <h5>app and book a hotel</h5>
+                        <h5>instantly</h5>
+                        <p>Book your hotel instantly with our Android and</p>
+                        <p>iOS Apps.</p>
+                    </div>
+                    <div class="">
+                        <div class="" style="display: flex; gap: 20px; align-items: center;">
+                            <div class="" style="">
+                                <img src="../images/google-play-min.png" width="300" alt="">
+                            </div>
+                            <div class="" style="">
+                                <img src="../images/apple.png" width="300" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="search_background" style="">
-        <div class="" style="display: flex; justify-content: center; gap: 30px; align-items: center;">
-            <div class="circle_image" style="text-align: center; align-content: center;">
-                <img src="../images/lock.png" width="20" alt="">
-            </div>
-            <div class="sub_footer_text" style="">
-                <h6>Enter your email address to unlock hotel deals</h6>
-                <p>Sign up to start receiving exclusive offers</p>
-            </div>
-            <div class="" style="">
-                <form class="search_lock" action="">
-                    <input type="text" placeholder="Enter Your email address" name="search">
-                    <button type="submit">Unlock</button>
-                </form>
+        <div class="search_background" style="">
+            <div class="" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+                <div class="circle_image" style="text-align: center; align-content: center;">
+                    <img src="../images/lock.png" width="20" alt="" style="margin-top: 5px;">
+                </div>
+                <div class="sub_footer_text" style="margin: 0 20px;">
+                    <h6>Enter your email address to unlock hotel deals</h6>
+                    <p>Sign up to start receiving exclusive offers</p>
+                </div>
+                <div class="" style="">
+                    <form class="search_lock" action="">
+                        <input type="text" placeholder="Enter Your email address" name="search">
+                        <button type="submit">Unlock</button>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-  </section>
+      </section>
+
+      <!-- <div class="web_site_footer_link" style="margin-top: 20px;">
+          <div class="" style="">
+              <table class="table-bordered">
+                  <tbody>
+                      <tr>
+                          <td>Company</td>
+                          <td>Community</td>
+                          <td>Top Cities</td>
+                          <td>Top Destinations</td>
+                          <td>Top Hotels</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+          <div class="vertical-line"></div>
+
+          <div class="" style="">
+              <table class="table-bordered1">
+                  <tbody>
+                      <tr>
+                          <td>
+                              <div class="web_site_footer_link">
+                                  <div class="" style="">
+                                      <h6><a href="">Visa</a></h6>
+                                      <h6><a href="">Blog</a></h6>
+                                      <h6><a href="">About Us</a></h6>
+                                      <h6><a href="">Press Page</a></h6>
+                                      <h6><a href="">Job Openings</a></h6>
+                                      <h6><a href="">Privacy Policy</a></h6>
+                                      <h6><a href="">Terms of Service</a></h6>
+                                      <h6><a href="">How It Works</a></h6>
+                                      <h6><a href="">HNG Internship</a></h6>
+                                  </div>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="web_site_footer_link">
+                                  <div class="" style="">
+                                      <h6><a href="">Twitter</a></h6>
+                                      <h6><a href="">Facebook</a></h6>
+                                      <h6><a href="">Instagram</a></h6>
+                                      <h6><a href="">Trave Blog</a></h6>
+                                      <h6><a href="">Tourist Attractions</a></h6>
+                                      <h6><a href="">Travel Guide</a></h6>
+                                      <h6><a href="">Top Hotels in Nigeria</a></h6>
+                                      <h6><a href="">Top Places in Nigeria</a></h6>
+                                      <h6><a href="">Cars in Nigeria</a></h6>
+                                  </div>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="web_site_footer_link">
+                                  <div class="" style="">
+                                      <h6><a href="">Hotels in Lagos</a></h6>
+                                      <h6><a href="">Hotels in Calabar</a></h6>
+                                      <h6><a href="">Hotels in Abuja</a></h6>
+                                      <h6><a href="">Hotels in Ikoyi</a></h6>
+                                      <h6><a href="">Hotels in Port Harcourt</a></h6>
+                                      <h6><a href="">Hotels in Owerri</a></h6>
+                                      <h6><a href="">Hotels in Mainland</a></h6>
+                                      <h6><a href="">Hotels in Aba</a></h6>
+                                      <h6><a href="">Hotels in Jos</a></h6>
+                                  </div>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="web_site_footer_link">
+                                  <div class="" style="">
+                                      <h6><a href="">Abuja</a></h6>
+                                      <h6><a href="">Calabar</a></h6>
+                                      <h6><a href="">Lagos</a></h6>
+                                      <h6><a href="">Enugu</a></h6>
+                                      <h6><a href="">Port Harcourt</a></h6>
+                                      <h6><a href="">Benin City</a></h6>
+                                      <h6><a href="">Ibadan</a></h6>
+                                      <h6><a href="">Abeokuta</a></h6>
+                                  </div>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="web_site_footer_link">
+                                  <div class="" style="">
+                                      <h6><a href="">Ibis Lagos Airport</a></h6>
+                                      <h6><a href="">Hotel Ibis Lagos Ikeja</a></h6>
+                                      <h6><a href="">Eko Hotel</a></h6>
+                                      <h6><a href="">The Safron Hotel</a></h6>
+                                      <h6><a href="">Grand Ibro Hotel</a></h6>
+                                      <h6><a href="">The Lagos Continental Hotel</a></h6>
+                                      <h6><a href=""> (Formerly Intercontinental Lagos Hotel)</a></h6>
+                                      <h6><a href="">Beni Apartments</a></h6>
+                                      <h6><a href="">Shoregate Hotel</a></h6>
+                                      <h6><a href="">Rosewood Inn</a></h6>
+                                      <h6><a href="">Academy Guest House</a></h6>
+                                      <h6><a href="">Tranquil Oasis Ltd</a></h6>
+                                      <h6><a href="">CitiHeight Hotel</a></h6>
+                                      <h6><a href="">Pope John Paul Catholic Guest House</a></h6>
+                                      <h6><a href="">Choice Suites (Formerly Chantella Suites)</a></h6>
+                                      <h6><a href="">Avenue Suites</a></h6>
+                                  </div>
+                              </div>
+                          </td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+      </div> -->
+
+      <section>
+          <div class="web_site_footer_link" style="margin-top: 20px;">
+              <div class="footer-header" style="">
+                  <div class="" style="display: flex;">
+                      <!-- <div style="flex: 1;"></div> -->
+                      <div class="" style="flex: 0.5;">
+                          <h6>Company</h6>
+                      </div>
+                      <div class="" style="flex: 0.5;">
+                          <h6>Community</h6>
+                      </div>
+                      <div class="" style="flex: 0.5;">
+                          <h6>Top Cities</h6>
+                      </div>
+                      <div class="" style="flex: 0.5;">
+                          <h6>Top Destinations</h6>
+                      </div>
+                      <div class="" style="flex: 0.5;">
+                          <h6>Top Hotels</h6>
+                      </div>
+                      <!-- <div style="flex: 1;"></div> -->
+                  </div>
+              </div>
+              <div class="vertical-line"></div>
+              <div class="top-online-site" style="">
+                  <div class="" style="display: flex;">
+                      <div class="" style="flex: 0.5;">
+                          <h6><a href="">Visa</a></h6>
+                          <h6><a href="">Blog</a></h6>
+                          <h6><a href="">About Us</a></h6>
+                          <h6><a href="">Press Page</a></h6>
+                          <h6><a href="">Job Openings</a></h6>
+                          <h6><a href="">Privacy Policy</a></h6>
+                          <h6><a href="">Terms of Service</a></h6>
+                          <h6><a href="">How It Works</a></h6>
+                          <h6><a href="">HNG Internship</a></h6>
+                      </div>
+                      <div class="" style="flex: 0.5;">
+                          <h6><a href="">Twitter</a></h6>
+                          <h6><a href="">Facebook</a></h6>
+                          <h6><a href="">Instagram</a></h6>
+                          <h6><a href="">Trave Blog</a></h6>
+                          <h6><a href="">Tourist Attractions</a></h6>
+                          <h6><a href="">Travel Guide</a></h6>
+                          <h6><a href="">Top Hotels in Nigeria</a></h6>
+                          <h6><a href="">Top Places in Nigeria</a></h6>
+                          <h6><a href="">Cars in Nigeria</a></h6>
+                      </div>
+                      <div class="" style="flex: 0.5;">
+                          <h6><a href="">Hotels in Lagos</a></h6>
+                          <h6><a href="">Hotels in Calabar</a></h6>
+                          <h6><a href="">Hotels in Abuja</a></h6>
+                          <h6><a href="">Hotels in Ikoyi</a></h6>
+                          <h6><a href="">Hotels in Port Harcourt</a></h6>
+                          <h6><a href="">Hotels in Owerri</a></h6>
+                          <h6><a href="">Hotels in Mainland</a></h6>
+                          <h6><a href="">Hotels in Aba</a></h6>
+                          <h6><a href="">Hotels in Jos</a></h6>
+                      </div>
+                      <div class="" style="flex: 0.5;">
+                          <h6><a href="">Abuja</a></h6>
+                          <h6><a href="">Calabar</a></h6>
+                          <h6><a href="">Lagos</a></h6>
+                          <h6><a href="">Enugu</a></h6>
+                          <h6><a href="">Port Harcourt</a></h6>
+                          <h6><a href="">Benin City</a></h6>
+                          <h6><a href="">Ibadan</a></h6>
+                          <h6><a href="">Abeokuta</a></h6>
+                      </div>
+                      <div class="" style="flex: 0.5;">
+                          <h6><a href="">Ibis Lagos Airport</a></h6>
+                          <h6><a href="">Hotel Ibis Lagos Ikeja</a></h6>
+                          <h6><a href="">Eko Hotel</a></h6>
+                          <h6><a href="">The Safron Hotel</a></h6>
+                          <h6><a href="">Grand Ibro Hotel</a></h6>
+                          <h6><a href="">The Lagos Continental Hotel</a></h6>
+                          <h6><a href=""> (Formerly Intercontinental Lagos Hotel)</a></h6>
+                          <h6><a href="">Beni Apartments</a></h6>
+                          <h6><a href="">Shoregate Hotel</a></h6>
+                          <h6><a href="">Rosewood Inn</a></h6>
+                          <h6><a href="">Academy Guest House</a></h6>
+                          <h6><a href="">Tranquil Oasis Ltd</a></h6>
+                          <h6><a href="">CitiHeight Hotel</a></h6>
+                          <h6><a href="">Pope John Paul Catholic Guest House</a></h6>
+                          <h6><a href="">Choice Suites (Formerly Chantella Suites)</a></h6>
+                          <h6><a href="">Avenue Suites</a></h6>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="vertical-line" style="margin-top: 20px;"></div>
+
+          <div class="footer-comment" style="margin: 20px auto 0; width: 70%;">
+              <div class="" style="display: flex;">
+                  <div class="" style="flex: 1;">
+                      <div class="" style="display: flex; gap: 10px; align-items: center;">
+                          <div class="" style="">
+                              <h6>Copyright &copy; 2025 Hotel Booking Limited All Rights Reserved</h6>
+                          </div>
+                          <div class="" style="">
+                              <h6><a href=""><img src="../images/twitter.png" width="20"  alt="" style="color: #657279;"></a></h6>
+                          </div>
+                          <div class="" style="">
+                              <h6><a href=""><img src="../images/facebook.png" width="20" alt="" style="color: #657279;"></a></h6>
+                          </div>
+                          <div class="" style="">
+                              <h6><a href=""><img src="../images/instagram.png" width="20" alt="" style="color: #657279;"></a></h6>
+                          </div>
+                          <div class="" style="">
+                              <h6><a href=""><img src="../images/google.png" width="20" alt="" style="color: #657279;"></a></h6>
+                          </div>
+                          <div class="" style="">
+                              <h6><a href=""><img src="../images/pinterest.png" width="20" alt="" style="color: #657279;"></a></h6>
+                          </div>
+                          <div class="" style="">
+                              <h6><a href=""><img src="../images/youtube.png" width="20" alt="" style="color: #657279;"></a></h6>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="" style="">
+                      <div class="" style="display: flex; align-items: center; gap: 10px;">
+                          <div class="" style="">
+                              <p>Certified by:</p>
+                          </div>
+                          <div class="" style="">
+                              <h6><img src="../images/nanta.png" width="50" alt=""></h6>
+                          </div>
+                          <div class="" style="">
+                              <h6><img src="../images/ntdc.png" width="50" alt=""></h6>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </section>
 
 
 
- 
+    
 
-</body>
+    </body>
 </html>
